@@ -1,0 +1,38 @@
+package Clases;
+
+public class Ruta {
+    private final String compañia;
+    private final String origen;
+    private final String destino;
+    private final double precio;
+    private final int duracion;
+
+    public Ruta(String compañia, String origen, String destino, double precio, int duracion) {
+        this.compañia = compañia;
+        this.origen = origen;
+        this.destino = destino;
+        this.precio = precio;
+        this.duracion = duracion;
+    }
+
+    public String getCompañia() {
+        return compañia;
+    }
+
+    public String getOrigen() {
+        return origen;
+    }
+
+    public String getDestino() {
+        return destino;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public int getDuracion() {
+        return duracion;
+    }
+    
+}
